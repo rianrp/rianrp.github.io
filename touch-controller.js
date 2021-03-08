@@ -72,23 +72,23 @@
       }
 
       // this is all just for displaying the messages when buttons are pressed. This isn't necessary code.
-      display.message.innerHTML = "touches: " + event.targetTouches.length + "<br>- ";
+      display.message.innerHTML = "Toques: " + event.targetTouches.length + "<br>- ";
 
       if (this.buttons[0].active) {
 
-        display.message.innerHTML += "jump ";
+        display.message.innerHTML += "pulo ";
 
       }
 
       if (this.buttons[1].active) {
 
-        display.message.innerHTML += "left ";
+        display.message.innerHTML += "esquerda ";
 
       }
 
       if (this.buttons[2].active) {
 
-        display.message.innerHTML += "right ";
+        display.message.innerHTML += "direita ";
 
       }
 
