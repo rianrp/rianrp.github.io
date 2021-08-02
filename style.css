@@ -169,7 +169,7 @@ button {
     #cmenu {
         display: none;
     }
-@media(max-width: 500px) {
+@media(max-width: 800px) {
     .banner{
     height: 200px;
 
